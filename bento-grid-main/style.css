@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    grid-template-columns: 1fr,1fr,1fr,1fr; 
+    gap: 10px;   
+}
+
+.titleblack{
+    font-size: 50px;
+}
+
+/* Carta 1 */
+.Margin1{
+    background-color: #faeee2;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.spanpurple{
+    color: blueviolet;
+    font-size: 50px;
+}
