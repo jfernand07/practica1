@@ -1,22 +1,153 @@
 .cards{
     display: flex;
     grid-template-columns: 1fr,1fr,1fr,1fr; 
-    gap: 10px;   
+    grid-template-rows: 1fr,1fr,1fr;
 }
 
 .titleblack{
     font-size: 50px;
+    padding: 15px;
+    margin: 15px;
+    width: auto;
 }
 
 /* Carta 1 */
 .Margin1{
-    background-color: #faeee2;
-    margin: 10px;
+    background-color: #e7ddd2;
+    margin: 5px;
     border-radius: 10px;
-    padding: 40px;
+    padding: 15px;
 }
 
 .spanpurple{
     color: blueviolet;
     font-size: 50px;
+}
+/* Carta 2 */
+.Margin2{
+    background-color: #f7c563;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 25px;
+}
+/* Carta 3 */
+
+.Margin3{
+    display: flex;
+    background-color: #7651dc;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.tittlewhite{
+    color: white;
+    justify-content: center;
+    font-size: 60px;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+}
+.socialmedia{
+    color: gold;
+    font-size: 60px;
+}
+.social{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    
+}
+
+.text{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    justify-content: center;
+}
+/* Carta 4 */
+.Margin4{
+    width: 1fr;
+    height: 1fr;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 25px;
+}
+.follow{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+/* Carta 5 */
+.Margin5{
+    width: 1fr;
+    background-color: #f5f5f5;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 25px;
+}
+
+.titleblack1{
+    font-size: 50px;
+    padding: 15px;
+    margin: 15px;
+    width: auto;
+}
+.text{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    justify-content: center;
+}   
+
+/* Carta 6 */
+.Margin6{
+    width: 1fr;
+    background-color: #f7c563;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.img6{
+    width: 150px;
+    height: 400px;
+}
+
+/* Carta 7 */
+.Margin7{
+    width: 1fr;
+    background-color: #7651dc;
+    border-radius: 10px;                        
+    margin: 10px;
+    padding: 25px;
+    padding-top: 25px;
+}
+
+.img7{
+    justify-content: flex-start;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+/* Carta 8 */
+.Margin8{
+    width: 1fr;
+    background-color: #dcd1fc;              
+    border-radius: 10px;
+    margin: 10px;
+    padding: 25px;
+    padding-top: 25px;
 }
